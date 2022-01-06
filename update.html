@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <title>Welcome To Updata data Form</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/reg.js"></script>
+    <script src="assets/js/update.js"></script>
+    <script src="assets/js/data.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script language="JavaScript" type="text/javascript" >
+
+        $(document).ready(function () {
+        onEditPress();
+        });
+     </script>
+  </head>
+	<body>
+	<!-- Main div code -->
+  <center>
+	<div id="main">
+		<div class="h-tag">
+			<h2 >Update Your Account</h2>
+	  </div>
+	<!-- create account div -->
+  <div role="form"  autocomplete="off">
+	  <div class="login">
+	    <table cellspacing="2" cellpadding="8" border="0">
+        
+	      <tr>
+	        <td >Enter Name :</td>
+	        <td><input type="text" placeholder="Enter user here" id="unm" class="tb" /></td>
+	      </tr>
+	      <tr>
+            <td >Enter Email ID :</td>
+            <td><input type="text" placeholder="Enter Email ID here" id="ueml" class="tb" /></td>
+        </tr>
+        <tr>
+          <td >Enter Mobile Number :</td>
+          <td><input type="text" placeholder="Enter Mobile Number" id="umob" class="tb" /></td>
+        </tr>
+        
+        <tr>
+          <td>
+            <input type="submit" value="Update" class="btn" onclick="edit()"  id='save'/>&nbsp;
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  </div>
+  </center>
+	</body>
+	</html>

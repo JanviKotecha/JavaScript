@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <title>Welcome To Login Form</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/login.js"></script>
+    <script src="assets/js/data.js"></script>
+  </head>
+	<body>
+	<!-- Main div code -->
+  <center>
+	<div id="main">
+		<div class="h-tag">
+			<h2 >Login Your Account</h2>
+	  </div>
+	<!-- create account div -->
+  <form role="form" onsubmit="signIn(event);" autocomplete="off">
+	  <div class="login">
+	    <table cellspacing="2" cellpadding="8" border="0">
+        <tr>
+          <td >Enter Email ID :</td>
+          <td><input type="text" placeholder="Enter Email ID here" id="mail" class="tb" /></td>
+        </tr>
+        
+        <tr>
+          <td>Enter Password :</td>
+          <td><input type="password" placeholder="Enter Password here" id="pwd" class="tb" /></td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="submit" value="Login" class="btn" />
+            <a href="Register.html" class="btn" >Register</a>
+            <br>
+            <a href="forget.html">Forget Password</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </form>
+  </div>
+  </center>
+	</body>
+	</html>

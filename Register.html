@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <title>Welcome To Registration Form</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/reg.js"></script>
+    <script src="assets/js/data.js"></script>
+     
+  </head>
+	<body>
+	<!-- Main div code -->
+  <center>
+	<div id="main">
+		<div class="h-tag">
+			<h2 >Create Your Account</h2>
+	  </div>
+	<!-- create account div -->
+  <form role="form" onsubmit="signUp(event);" autocomplete="off">
+	  <div class="login">
+	    <table cellspacing="2" cellpadding="8" border="0">
+	      <tr>
+	        <td >Enter Name :</td>
+	        <td><input type="text" placeholder="Enter user here" id="t1" class="tb" /></td>
+	      </tr>
+	      <tr>
+          <td >Enter Email ID :</td>
+          <td><input type="text" placeholder="Enter Email ID here" id="t2" class="tb" /></td>
+        </tr>
+        <tr>
+          <td >Enter Mobile Number :</td>
+          <td><input type="text" placeholder="Enter Mobile Number" id="t3" class="tb" /></td>
+        </tr>
+        <tr>
+          <td>Enter Password :</td>
+          <td><input type="password" placeholder="Enter Password here" id="t4" class="tb" /></td>
+        </tr>
+        <tr>
+          <td>Enter Confirm Password :</td>
+          <td><input type="password" placeholder="Enter Password here" id="t5" class="tb" /></td>
+        </tr>
+        <tr>
+          <td>
+            <input type="submit" value="Create Account" class="btn"  />&nbsp;
+            <a href="login.html" class="btn" >Login</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </form> 
+  </div>
+  </center>
+	</body>
+	</html>
