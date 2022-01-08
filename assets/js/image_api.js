@@ -20,11 +20,11 @@ function viewPhoto() {
       data.forEach(function (e) {
         opt.innerHTML += `
         <div class="row">
-          <div class="col-sm-">
+          <div class="col-sm-3">
               <div class="card">
                   <img src="${e.url}" style="width:120px;hight:120px">
                   <h5>${e.title}<h5>
-                  <a href="${e.thumbnailUrl}">ShowThumb</a>
+                  <a href="${e.thumbnailUrl}" class="btn btn-primary">ShowThumb</a>
               </div>
             </div>
           </div>`;
