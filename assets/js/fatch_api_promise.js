@@ -19,6 +19,10 @@ function getRecord() {
                   <p>Usermae :${e.username}</p>
                   <p>Email : ${e.email}</p>
                   <p>Phone :${e.phone}</p>
+                  <p>Address :${e.address.street}
+                  ${e.address.suite},
+                  ${e.address.city},
+                  ${e.address.zipcode}</p>
                   <p>Website :${e.website}</p><hr>
                   <a href=fatch_api_view.html?id=${e.id} class='btn btn-primary'>Post
                   <a href=image_api.html?id=${e.id} class='btn btn-success'>Photos</a>

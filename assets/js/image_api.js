@@ -19,15 +19,14 @@ function viewPhoto() {
       var opt = document.getElementById('div13');
       data.forEach(function (e) {
         opt.innerHTML += `
-        <div class="row">
-          <div class="col-md-3">
+        <div class="col-sm-3">
               <div class="card">
-                  <center><img src="${e.url}" style="width:120px;hight:120px"></center>
-                  <h5>${e.title}<h5>
-                  <a href="${e.thumbnailUrl}" class="btn btn-primary">ShowThumb</a>
-              </div>
-            </div>
-          </div>`;
+                <div class="card-body">
+                  <p><b>Title</b> : ${e.title}</p>
+                  <p><b>Image</b>: <img src=${e.url} style="width:20%"></img></p>
+                  <a href="${e.thumbnailUrl}" class="btn btn-primary">Show Thumb</a>
+                </div>
+              </div>`;
       });
     });
 }
